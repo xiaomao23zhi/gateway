@@ -1,0 +1,12 @@
+[
+  {
+    "resource": "core-service",
+    "grade": 1,
+    "count": 1,
+    "intervalSec": 1,
+    "paramItem": {
+      "parseStrategy":2,
+      "fieldName":"userId"
+    }
+  }
+]
