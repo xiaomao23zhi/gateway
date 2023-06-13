@@ -18,13 +18,13 @@ spring:
         dashboard: ${SENTINEL_SERVER:localhost:8840}
       eager: true
       datasource:
-        flow_ds:
+        flow-rules:
           nacos:
             server-addr: ${NACOS_SERVER:localhost:8848}
             data-id: ${spring.application.name}-rules
             data-type: json
             group-id: DEFAULT_GROUP
-            rule-type: gw_flow
+            rule-type: GW_FLOW
       scg:
         fallback:
           content-type: application/json
