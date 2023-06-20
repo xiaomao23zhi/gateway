@@ -25,10 +25,9 @@ spring:
             data-type: json
             group-id: DEFAULT_GROUP
             rule-type: GW_FLOW
-      scg:
-        fallback:
-          content-type: application/json
-          mode: response
-          response-status: 429
-          response-body: '{"code": 429, "message": "Rate Limit"}'
-
+#      scg:
+#        fallback:
+#          content-type: application/json
+#          mode: response
+#          response-status: 429
+#          response-body: '{"code": 429, "message": "Rate Limit"}'

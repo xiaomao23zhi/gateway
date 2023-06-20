@@ -6,7 +6,9 @@
     "intervalSec": 1,
     "paramItem": {
       "parseStrategy":2,
-      "fieldName":"userId"
+      "fieldName":"userId",
+      "matchStrategy": 0,
+      "pattern": "dummy"
     }
   }
 ]
